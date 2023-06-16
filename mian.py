@@ -25,6 +25,7 @@ down = int((s2 / 180 * 2 + 0.5) / 20 * 1023)
 
 
 
+
 def do_connect():
     print("Connecting to WiFi", end="")
     sta_if = network.WLAN(network.STA_IF)
